@@ -1,3 +1,4 @@
+import { ExternalModule } from 'src/app/modules/external/external.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -10,14 +11,18 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
+
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LayoutModule
+    LayoutModule,
+    ExternalModule
+
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+
 })
 export class AppModule { }

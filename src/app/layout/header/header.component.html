@@ -1,6 +1,12 @@
-<header>
-    <div class="buttons-cont">
-        <app-header-button text="Dark Mode"/>
-        <app-header-button text="Favourites"/>
-    </div>
-</header>
+<app-main-container>
+    <header>
+
+        <header-title title="Web Topics" color="var(--brand-primary)">
+        </header-title>
+        <div class="buttons-cont">
+            <app-header-button [iconName]="faMoon" text="Dark Mode" />
+            <app-header-button [iconName]="faHeart" text=Favourites />
+        </div>
+
+    </header>
+</app-main-container>
