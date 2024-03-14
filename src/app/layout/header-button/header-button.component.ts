@@ -1,6 +1,6 @@
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { Component, OnInit, Input} from '@angular/core';
-import { faMoon } from '@fortawesome/free-regular-svg-icons';
+import {MatButton} from '@angular/material/button'
 
 @Component({
   selector: 'app-header-button',
